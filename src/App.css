@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgba(0, 0, 0, .03);
+  height: 30px;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.main-wrapper {
+  margin-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.table-row-data:nth-child(even) {
+  background-color: rgba(0, 0, 0, .03);
+}
+
+table, tr, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 20px;
+  font-size: 13px;
+}
+
+.add-button {
+  cursor: pointer;
+  user-select: none;
+  background-color: #2ecc71;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+/* MODAL */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 100;
+}
+
+.add-form-wrapper {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 10px;
+  min-width: 400px;
+}
+
+.distance-input {
+  width: 15%;
+  margin-left: 20px;
+}
+
+.person-adress-field {}
+
+.person-name {
+  width: 65%;
+  margin-right: 5%;
+}
+
+.select-a-person {
+  width: 30%;
+}
+
+.person-adress {
+  width: 80%;
+  margin-right: 5%;
+}
+
+.add-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-form-button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 13px;
+  background-color: #2ecc71;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-form-date {
+  width: 40%;
+}
+
+.add-form-start-km {
+  width: 55%;
+  margin-left: 5%;
+}
+
+.person-adress-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.add-form-start-place {
+  width: 100%;
+}
+
+.search-for-places {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 13px;
+  background-color: #2ecc71;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-close {
+  position: absolute;
+  background: #c0392b;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+.premade-route {
+  width: 100%
+}
+
+/* MODAL END */
